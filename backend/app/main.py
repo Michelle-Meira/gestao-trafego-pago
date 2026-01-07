@@ -52,3 +52,11 @@ async def health_check():
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+
+# Adicionar router de ads REAL
+from app.routers.ads_router import router as ads_router
+app.include_router(ads_router)
+
+print("✅ Sistema de Gestão de Tráfego Pago inicializado!")
+print("🔗 Documentação: http://localhost:8000/docs")
+print("🎯 APIs de Ads disponíveis em: /api/ads")
