@@ -1,0 +1,79 @@
+# Dependências do Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Ambiente Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Seu ambiente virtual já existente (IMPORTANTE!)
+/venv/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Builds
+build/
+dist/
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+
+# Banco de dados (não versionar dados!)
+*.db
+*.sqlite
+*.sqlite3
+database/*.db  # se tiver arquivos db na pasta database
+
+# Arquivos grandes de dados
+*.csv
+*.xlsx
+*.pdf
+*.zip
+*.tar.gz
+
+# Logs
+*.log
+logs/
+
+# Variáveis de ambiente (NUNCA versionar!)
+.env
+.env.local
+.env.*.local
+
+# Frontend build
+frontend/build/
+frontend/.next/
+
+# Backup files
+*.bak
+*.backup
+
+# Node_modules em qualquer lugar
+**/node_modules/
+**/package-lock.json
+
+# Banco de dados local
+*.db
+*.sqlite
+**/*.db
